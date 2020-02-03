@@ -1,5 +1,4 @@
-
-# TimeOff.Management
+# E-Task
 
 Web application for managing employee absences.
 
@@ -51,9 +50,9 @@ Ability to back up entire company leave data into CSV file. So it could be used 
 
 The most used customer paths are mobile friendly:
 
-* employee is able to request new leave from mobile device
+- employee is able to request new leave from mobile device
 
-* supervisor is able to record decision from the mobile as well.
+- supervisor is able to record decision from the mobile as well.
 
 **Lots of other little things that would make life easier**
 
@@ -68,19 +67,19 @@ Optionally allow employees to see the time off information of entire company reg
 
 ## Screenshots
 
-![TimeOff.Management Screenshot](https://raw.githubusercontent.com/timeoff-management/application/master/public/img/readme_screenshot.png)
+![E-Task Screenshot](https://raw.githubusercontent.com/timeoff-management/application/master/public/img/readme_screenshot.png)
 
 ## Installation
 
 ### Cloud hosting
 
-Visit http://timeoff.management/
+Visit http://eworkssystem.com/
 
 Create company account and use cloud based version.
 
 ### Self hosting
 
-Install TimeOff.Management application within your infrastructure:
+Install E-Task application within your infrastructure:
 
 (make sure you have Node.js (>=4.0.0) and SQLite installed)
 
@@ -90,6 +89,7 @@ cd timeoff-management
 npm install
 npm start
 ```
+
 Open http://localhost:3000/ in your browser.
 
 ## Run tests
@@ -112,7 +112,7 @@ Any bug fixes or enhancements should have good test coverage to get them into "m
 
 ## Updating existing instance with new code
 
-In case one needs to patch existing instance of TimeOff.Managenent application with new version:
+In case one needs to patch existing instance of E-Task application with new version:
 
 ```bash
 git fetch
@@ -124,5 +124,4 @@ npm start
 
 ## Feedback
 
-Please report any issues or feedback to <a href="https://twitter.com/FreeTimeOffApp">twitter</a> or Email: pavlo at timeoff.management
-
+Please report any issues or feedback to Email: kelsikeichiu at Gmail
